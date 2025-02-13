@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de inscrição</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+        <h2>Formulário de Exemplo</h2>
+        <form action="">
+            <div class="elemento">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name">
+            </div>
+            <div class="elemento">
+                <label for="e-mail">E-mail:</label>
+                <input type="email" name="" id="e-mail">
+            </div>
+            <div class="elemento">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone">
+            </div>
+            <div class="elemento">
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" min="1" max="100">
+            </div>
+            <div class="elemento">
+                <label for="sexo">Sexo:</label>
+                <select name="" id="sexo">
+                    <option value=""></option>
+                    <option value="">Masculino</option>
+                    <option value="">Feminino</option>
+                    <option value="">Prefiro Não Dizer</option>
+                    <option value="">Helicóptero de Combate - Modelo: Boeing AH-64 Apache</option>
+                    <option value="">Croissant</option>
+                </select>
+            </div>
+            <div class="elemento">
+                <label for="interesse">Você tem interesse em aprender programação?</label>
+                <div>
+                    <div>
+                        <input type="radio" name="interesse" id="opsim">
+                        <label for="opsim">Sim</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="interesse" id="opnao">
+                        <label for="opnao">Não</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="interesse" id="provavelmente">
+                        <label for="provavelmente">Provavelmente</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+</body>
+
+</html>
