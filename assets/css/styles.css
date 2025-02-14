@@ -1,7 +1,6 @@
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.containerzudo {
+  display: block;
+  justify-items: center;
 }
 
 .elemento {

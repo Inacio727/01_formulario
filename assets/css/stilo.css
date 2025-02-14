@@ -1,0 +1,117 @@
+/* Definição de fontes e margens padrão */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilizando o título */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Formulário */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Estilizando cada campo de entrada */
+.elemento {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+input[type="file"],
+input[type="date"],
+input[type="color"],
+input[type="search"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
+
+/* Estilizando o campo de seleção */
+select {
+    background-color: #f9f9f9;
+}
+
+/* Estilizando os campos de rádio */
+.elemento div {
+    margin-top: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Estilizando o botão de envio */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilizando os títulos da seção */
+h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Ajustes responsivos */
+@media screen and (max-width: 600px) {
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
